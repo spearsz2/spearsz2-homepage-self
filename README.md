@@ -25,7 +25,8 @@ The game simulates the journey of a sea turtle navigating polluted, trash-filled
 ---
 
 ## Game Design
-![Game Concept Art](link-to-your-image.jpg)
+![Design Overview](https://github.com/guilfoyles1/cps491group14_homepage/blob/main/Images/DesignOverview.png?raw=true)
+
 
 This image showcases the **game design overview**:  
 - **Human POV (Level 1)**: Focuses on cleaning up trash and protecting the environment.  
