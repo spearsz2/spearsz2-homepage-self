@@ -4,7 +4,11 @@
 The **Turtle Up Edutainment Game** is an interactive educational game designed to raise awareness about sea turtle conservation, migration, and the impacts of pollution. This game is targeted at a wide audience, including children, adults, and local professionals, with the goal of fostering greater awareness and inspiring action to protect sea turtles and their habitats.
 
 ### Game Concept
-The game simulates the journey of a sea turtle navigating polluted, trash-filled waters, facing challenges such as distinguishing between food and trash. It also highlights the role humans play in either exacerbating or alleviating these problems—by throwing trash into the environment, cleaning up the beaches, and how their actions impact the turtle's survival.
+Players experience the impact of human actions on sea turtles and the environment through two perspectives:
+- **Human Perspective (Level 1):** Clean up beaches, sort trash, and understand the consequences of pollution.
+- **Turtle Perspective (Level 2):** Navigate the ocean, scavenging for food while avoiding plastic waste and environmental hazards.
+
+By combining engaging **gameplay** with **educational elements**, the game encourages players to reflect on real-world conservation efforts.
 
 ---
 
@@ -17,20 +21,38 @@ The game simulates the journey of a sea turtle navigating polluted, trash-filled
 ---
 
 ## Features
-- **Interactive gameplay** where players experience both **human and turtle perspectives**.
-- **Human perspective (Level 1)**: Players clean up beaches, sort trash, and learn about the environmental impact.
-- **Turtle perspective (Level 2)**: Players navigate polluted waters, scavenging for food while avoiding trash and obstacles.
-- **Educational content** is integrated throughout the game, teaching players about conservation and the impact of pollution.
+- **Dual-perspective gameplay** (Human & Turtle).
+- **Interactive trash collection & sorting** mechanics.
+- **Educational visuals & pop-ups** on conservation topics.
+- **Customizable player experience** with character selection (work in progress).
 
 ---
 
 ## Game Design
-![Design Overview](https://github.com/guilfoyles1/cps491group14_homepage/blob/main/Images/DesignOverview.png?raw=true)
-
+![Design Overview](Images/DesignOverview.png)
 
 This image showcases the **game design overview**:  
-- **Human POV (Level 1)**: Focuses on cleaning up trash and protecting the environment.  
-- **Turtle POV (Level 2)**: Navigates polluted waters while facing the consequences of human actions on the environment.
+- **Human POV (Level 1):** Collect trash, sort waste, and protect the environment.
+- **Turtle POV (Level 2):** Navigate the ocean, avoid plastic, and experience the effects of pollution firsthand.
+
+---
+
+## Development Progress
+
+### ✅ Implemented:
+- **Player movement** (WASD, arrow keys, click-to-move).
+- **Trash collection & inventory system**.
+- **Prototype demo for core gameplay mechanics**.
+
+### 🔄 In Progress:
+- **Character customization system** (Turtle species + Human avatars).
+- **UI enhancements** for improved navigation.
+- **Recycling & trash bin interactions**.
+
+### ⏳ Upcoming:
+- **Educational overlays & pop-ups** on sea turtle conservation.
+- **Gameplay balancing** to ensure engagement while maintaining an informative experience.
+- **Finalized playable demo** for testing and refinement.
 
 ---
 
@@ -44,7 +66,7 @@ This image showcases the **game design overview**:
 ---
 
 ## Current Status
-We are currently in the **development phase** of the Turtle Up Edutainment Game. The main tasks for this phase include finalizing the game concept, mechanics for the human and turtle perspectives, and building out the educational content. We are actively working with our client to get feedback and approval on the direction of the project. Updates will be posted here as we continue making progress.
+We are currently in the **development phase** of the Turtle Up Edutainment Game. The main tasks for this phase include finalizing the **game concept, mechanics for both perspectives, and educational content**. We are actively working with our client to get feedback and approval on the direction of the project.
 
 ### Upcoming Milestones:
 - **Complete prototype** showcasing the human and turtle levels.
@@ -53,35 +75,38 @@ We are currently in the **development phase** of the Turtle Up Edutainment Game.
 
 ---
 
+## How to Play the Game
+### Running the Game in Unity:
+1. **Open Unity Hub.**
+2. Click **Add Project** and select the cloned repository.
+3. Ensure your **Unity version matches** the project's required version.
+4. Open the project and **allow it to load dependencies**.
+5. Select **Scenes/BeachLevel** (or appropriate scene).
+6. Press **Play** in the Unity editor.
+
+### Controls:
+- **WASD / Arrow Keys:** Move the player.
+- **Click-to-Move:** Tap/click to move (mobile-friendly).
+- **Trash Collection:** Walk near an object to collect it.
+- **Inventory Management:** Press `F` to remove items from the inventory.
+
+---
+
 ## Links
-- [Team's Private Git Repo (Source Code)](https://github.com/guilfoyles1/cps491group14)
-- [Team's Public Git Repo (Website)](https://github.com/guilfoyles1/cps491group14_homepage)
-- [Trello Board](link-to-your-board)
+- **[Team's Private Git Repo (Source Code)](https://github.com/guilfoyles1/cps491group14)**
+- **[Team's Public Git Repo (Website)](https://github.com/guilfoyles1/cps491group14_homepage)**
+- **[Trello Board](link-to-your-board)**
 
 ---
 
 ## Sponsor Information
-- **Sponsor**: **Corinne Brion**, from **Turtle Up**.
-- **Industry**: Educational non-profit focused on **sea turtle conservation**.
-- **Website**: [Turtle Up Website](https://turtleup.org)
+- **Sponsor:** **Corinne Brion** from **Turtle Up**.
+- **Industry:** Educational non-profit focused on **sea turtle conservation**.
+- **Website:** [Turtle Up Website](https://turtleup.org)
 
 Turtle Up aims to educate and inspire action for **environmental conservation**, particularly focusing on **sea turtles** and their preservation. By partnering with Turtle Up, our project helps amplify the message of **sustainability** and the **ecological importance** of sea turtles in marine and beach ecosystems.
 
 ---
 
-## Challenges and Progress
-We are currently tackling challenges related to:
-- Designing the **human and turtle gameplay mechanics** for a seamless transition between the two perspectives.
-- **Coordinating** and maintaining clear communication between our two teams to ensure consistent progress and asset sharing.
-
-**Upcoming**:
-- Finalizing **game mechanics** and **educational content** for user testing.
-- **Additional levels** and content if time permits, to expand on the human and turtle perspectives.
-
----
-
 ## Contact
 For any inquiries or feedback, feel free to reach out to us at our email addresses listed under **Team Members**.
-
-
-
